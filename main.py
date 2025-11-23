@@ -1,5 +1,4 @@
 from random import randint
-from typing import Optional
 
 
 def attack(char_name: str, char_class: str) -> str:
@@ -64,7 +63,7 @@ def start_training(char_name: str, char_class: str) -> str:
     return 'Тренировка окончена.'
 
 
-def choice_char_class() -> Optional[str]:
+def choice_char_class() -> str:
     approve_choice = None
     char_class = None
     while approve_choice != 'y':
