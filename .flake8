@@ -1,0 +1,32 @@
+[flake8]
+max-line-length = 88
+max-doc-length = 88
+
+exclude =
+    .git,
+    __pycache__,
+    build,
+    dist,
+    venv
+
+select =
+    E,
+    F,
+    W,
+    C,
+    N,
+    B,
+    Q,
+    I,
+    ANN,
+    M
+
+ignore =
+    E203,
+    W503,
+    ANN101,
+    ANN102,
+    ANN002,
+    ANN003
+
+max-complexity = 10
